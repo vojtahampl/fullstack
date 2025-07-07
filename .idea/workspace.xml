@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26ba6c3f-71d5-4d10-b464-4e54e747e6ac" name="Changes" comment="added gitignore file">
-      <change afterPath="$PROJECT_DIR$/backend/server.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/client.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    <list default="true" id="26ba6c3f-71d5-4d10-b464-4e54e747e6ac" name="Changes" comment="added eslint and dependecies">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +41,9 @@
     "accountId": "562d9a4f-6c4a-4b01-b749-05aa6b3d7386"
   }
 }]]></component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 5
 }]]></component>
@@ -108,7 +108,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1751912826164</updated>
-      <workItem from="1751912827232" duration="2984000" />
+      <workItem from="1751912827232" duration="3960000" />
     </task>
     <task id="LOCAL-00001" summary="added gitignore file">
       <option name="closed" value="true" />
@@ -126,14 +126,34 @@
       <option name="project" value="LOCAL" />
       <updated>1751913129639</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added eslint and dependecies">
+      <option name="closed" value="true" />
+      <created>1751915982363</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1751915982363</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added gitignore file" />
-    <option name="LAST_COMMIT_MESSAGE" value="added gitignore file" />
+    <MESSAGE value="added eslint and dependecies" />
+    <option name="LAST_COMMIT_MESSAGE" value="added eslint and dependecies" />
   </component>
 </project>
