@@ -1,0 +1,34 @@
+{
+  "name": "fullstack",
+  "version": "0.0.1",
+  "description": "test aplikace",
+  "keywords": [
+    "demo"
+  ],
+  "homepage": "https://github.com/vojtahampl/fullstack#readme",
+  "bugs": {
+    "url": "https://github.com/vojtahampl/fullstack/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vojtahampl/fullstack.git"
+  },
+  "license": "ISC",
+  "author": "vojta.hampl",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint",
+    "lint:fix": "eslint --ext .js,.jsx,.ts,.tsx . --fix"
+  },
+  "devDependencies": {
+    "@eslint/css": "^0.9.0",
+    "@eslint/js": "^9.30.1",
+    "@eslint/json": "^0.12.0",
+    "eslint": "^9.30.1",
+    "eslint-plugin-react": "^7.37.5",
+    "globals": "^16.3.0",
+    "typescript-eslint": "^8.36.0"
+  }
+}
