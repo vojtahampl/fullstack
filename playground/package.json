@@ -15,7 +15,7 @@
   },
   "license": "ISC",
   "author": "vojta.hampl",
-  "type": "commonjs",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -28,6 +28,6 @@
     "eslint": "^9.30.1"
   },
   "dependencies": {
-    "@stylistic/eslint-plugin-js": "^4.4.1"
+
   }
 }
