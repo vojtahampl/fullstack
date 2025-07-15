@@ -1,0 +1,88 @@
+/* =========================
+   table
+   ========================= */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #ccc;
+}
+td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+}
+th {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+}
+
+
+tfoot ‚{
+    background-color: lightgray;
+    align-items: center;
+}
+
+tr {
+    border: 1px solid #ccc;
+    background-color: aliceblue;
+}
+
+caption {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.count-info {
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* =========================
+   form
+   ========================= */
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    max-width: 300px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* =========================
+   obecne
+   ========================= */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    align-items: center;
+}
+
+button {
+    padding: 10px;
+    background-color: royalblue;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 300px;
+}
+
+div {
+    margin: 0 auto;
+    max-width: 400px; /* nebo jiná šířka dle potřeby */
+    margin-bottom: 20px;
+    padding: 20px;
+}
