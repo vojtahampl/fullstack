@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26ba6c3f-71d5-4d10-b464-4e54e747e6ac" name="Changes" comment="added eslint and dependecies, refactoring of directories">
+    <list default="true" id="26ba6c3f-71d5-4d10-b464-4e54e747e6ac" name="Changes" comment="added new files with html, js and css which sends data from form to table bellow">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/playground/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/playground/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playground/table.html" beforeDir="false" afterPath="$PROJECT_DIR$/playground/table.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,13 +18,15 @@
       <list>
         <option value="package.json" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="added_packages" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -65,6 +67,8 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JavaScript Debug.table.html.executor&quot;: &quot;Run&quot;,
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;Node.js.eslint.config.mjs.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
@@ -72,8 +76,9 @@
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;SHELLCHECK.PATH&quot;: &quot;I do mind&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;#3 on eslint-and-other-packages&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;#4 on table-with-data&quot;,
     &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -93,7 +98,10 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.eslint.config.mjs">
+  <component name="RunManager" selected="JavaScript Debug.table.html">
+    <configuration name="table.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/fullstack/playground/table.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="eslint.config.mjs" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/playground/eslint.config.mjs" working-dir="$PROJECT_DIR$/playground">
       <method v="2" />
     </configuration>
@@ -129,6 +137,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.table.html" />
         <item itemvalue="Node.js.eslint.config.mjs" />
         <item itemvalue="npm.lint" />
         <item itemvalue="npm.test (1)" />
@@ -152,6 +161,9 @@
       <updated>1751912826164</updated>
       <workItem from="1751912827232" duration="10149000" />
       <workItem from="1752090068896" duration="3754000" />
+      <workItem from="1752503431104" duration="14608000" />
+      <workItem from="1752752691676" duration="152000" />
+      <workItem from="1752752852582" duration="4604000" />
     </task>
     <task id="LOCAL-00001" summary="added gitignore file">
       <option name="closed" value="true" />
@@ -193,7 +205,15 @@
       <option name="project" value="LOCAL" />
       <updated>1751918605026</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added new files with html, js and css which sends data from form to table bellow">
+      <option name="closed" value="true" />
+      <created>1752609275559</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1752609275559</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,6 +234,7 @@
     <MESSAGE value="added gitignore file" />
     <MESSAGE value="added eslint and dependecies" />
     <MESSAGE value="added eslint and dependecies, refactoring of directories" />
-    <option name="LAST_COMMIT_MESSAGE" value="added eslint and dependecies, refactoring of directories" />
+    <MESSAGE value="added new files with html, js and css which sends data from form to table bellow" />
+    <option name="LAST_COMMIT_MESSAGE" value="added new files with html, js and css which sends data from form to table bellow" />
   </component>
 </project>

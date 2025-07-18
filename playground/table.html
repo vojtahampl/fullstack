@@ -1,0 +1,65 @@
+<link rel="stylesheet" href="style.css">
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tabulka na fullstack kurz</title>
+</head>
+<body>
+<div>
+    <h1>Kontaktní formulář</h1>
+    <p>Vyplňte prosím své kontaktní údaje.</p>
+    <form id="contactForm">
+        <label for="first_name">Jméno:</label>
+        <input type="text" id="first_name" name="first_name" required>
+
+        <label for="last_name">Příjmení:</label>
+        <input type="text" id="last_name" name="last_name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" dataformatas="email" id="email" name="email" required>
+
+        <label for="phone">Telefon: </label>
+        <input type="tel" id="phone" name="phone" required>
+
+        <button type="reset" onclick="addRow()">Odeslat</button>
+    </form>
+
+</div>
+
+<table id="data">
+    <caption>Kontaktní údaje</caption>
+    <thead>
+        <tr>
+            <th>Jméno</th>
+            <th>Příjmení</th>
+            <th>Email</th>
+            <th>Telefon</th>
+        </tr>
+    </thead>
+    <tbody id="tableBody">
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="4">Počet záznamů: <span id="count">0</span></td>
+        </tr>
+    </tfoot>
+</table>
+
+<script>
+    var addRow = () => {
+        const table = document.getElementById("data").querySelector("tbody");
+        const newRow = table.insertRow(-1);
+        ["phone", "email", "last_name", "first_name"].forEach((fieldName) => {
+            const newValue = document.getElementById(fieldName).value;
+            const newCell = newRow.insertCell(0);
+            let newText = document.createTextNode(newValue);
+            newCell.appendChild(newText);
+        });
+    };
+</script>
+
+
+</body>
+</html>
