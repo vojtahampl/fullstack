@@ -1,0 +1,240 @@
+/* =========================
+   tabulka
+   ========================= */
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid #130d0d;
+    overflow: hidden;
+}
+
+
+td {
+    border: none;
+    padding: 8px;
+    text-align: center;
+}
+
+thead th {
+    background-color: #7a9ccc;
+    border: 1px solid #130d0d;
+    padding: 8px;
+    text-align: center;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #e3e3e3;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #8e8e8e;
+}
+
+tbody tr:hover {
+    background-color: #b7daf3;
+}
+
+tfoot td {
+    background-color: #7a9ccc;
+    border: 1px solid #130d0d;
+    padding: 8px;
+    text-align: center;
+    font-weight: bold;
+}
+
+caption {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.count-info {
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* =========================
+   form
+   ========================= */
+
+form {
+    display: grid;
+    gap: 10px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    text-align: left;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* =========================
+   obecne
+   ========================= */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    align-items: center;
+}
+
+button {
+    padding: 12px 20px;
+    background-color: royalblue;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 100%;
+    max-width: 300px;
+    box-sizing: border-box;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #3355cc;
+}
+
+div {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px;
+    text-align: center;
+}
+
+/* =========================
+   Responzivní breakpointy
+   ========================= */
+/* Malý displej - každý prvek na samostatném řádku */
+@media (max-width: 767px) {
+    form {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 5px;
+    }
+
+    form > label {
+        margin-top: 10px;
+        margin-bottom: 2px;
+    }
+
+    form > button {
+        width: 100%;
+        margin-top: 15px;
+    }
+}
+
+/* Středně velký displej - 2 řádky */
+@media (min-width: 768px) and (max-width: 1023px) {
+    form {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+            "fname-label lname-label"
+            "fname-input lname-input"
+            "email-label phone-label"
+            "email-input phone-input"
+            "button button";
+        gap: 15px;
+        row-gap: 5px;
+    }
+
+    form > label[for="first_name"] {
+        grid-area: fname-label;
+    }
+    form > input[id="first_name"] {
+        grid-area: fname-input;
+    }
+    form > label[for="last_name"] {
+        grid-area: lname-label;
+    }
+    form > input[id="last_name"] {
+        grid-area: lname-input;
+    }
+    form > label[for="email"] {
+        grid-area: email-label;
+    }
+    form > input[id="email"] {
+        grid-area: email-input;
+    }
+    form > label[for="phone"] {
+        grid-area: phone-label;
+    }
+    form > input[id="phone"] {
+        grid-area: phone-input;
+    }
+    form > button {
+        grid-area: button;
+        width: 100%;
+        margin-top: 10px;
+    }
+}
+
+/* Velký displej - vše na jednom řádku */
+@media (min-width: 1024px) {
+    form {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr) auto;
+        grid-template-areas:
+            "fname-label lname-label email-label phone-label ."
+            "fname-input lname-input email-input phone-input button";
+        align-items: end;
+        gap: 20px;
+        row-gap: 5px;
+    }
+
+    /* Jméno */
+    form > label[for="first_name"] {
+        grid-area: fname-label;
+    }
+
+    form > input[id="first_name"] {
+        grid-area: fname-input;
+    }
+
+    /* Příjmení */
+    form > label[for="last_name"] {
+        grid-area: lname-label;
+    }
+
+    form > input[id="last_name"] {
+        grid-area: lname-input;
+    }
+
+    /* Email */
+    form > label[for="email"] {
+        grid-area: email-label;
+    }
+
+    form > input[id="email"] {
+        grid-area: email-input;
+    }
+
+    /* Telefon */
+    form > label[for="phone"] {
+        grid-area: phone-label;
+    }
+
+    form > input[id="phone"] {
+        grid-area: phone-input;
+    }
+
+    /* Tlačítko */
+    form > button {
+        grid-area: button;
+        width: auto;
+    }
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="style.css">
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabulka na fullstack kurz</title>
+</head>
+<body>
+<div>
+    <h1>Kontaktní formulář</h1>
+    <p>Vyplňte prosím své kontaktní údaje.</p>
+    <form id="contactForm">
+        <label for="first_name">Jméno:</label>
+        <input type="text" id="first_name" name="first_name" required>
+
+        <label for="last_name">Příjmení:</label>
+        <input type="text" id="last_name" name="last_name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" dataformatas="email" id="email" name="email" required>
+
+        <label for="phone">Telefon: </label>
+        <input type="tel" id="phone" name="phone" required>
+
+        <button type="reset" onclick="addRow()">Odeslat</button>
+    </form>
+</div>
+
+<table id="data">
+    <caption>Kontaktní údaje</caption>
+    <thead>
+        <tr>
+            <th>Jméno</th>
+            <th>Příjmení</th>
+            <th>Email</th>
+            <th>Telefon</th>
+        </tr>
+    </thead>
+    <tbody id="tableBody">
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="4">Počet záznamů: <span id="count">0</span></td>
+        </tr>
+    </tfoot>
+</table>
+
+<script>
+    var addRow = () => {
+        // Získat všechny hodnoty z formuláře
+        const firstName = document.getElementById("first_name").value.trim();
+        const lastName = document.getElementById("last_name").value.trim();
+        const email = document.getElementById("email").value.trim();
+        const phone = document.getElementById("phone").value.trim();
+
+        if (!firstName || !lastName || !email || !phone) {
+            alert("Prosím vyplňte všechna pole!");
+            return;
+        }
+        const table = document.getElementById("data").querySelector("tbody");
+        const newRow = table.insertRow(-1);
+
+        [firstName, lastName, email, phone].forEach((value) => {
+            const newCell = newRow.insertCell(-1);
+            newCell.appendChild(document.createTextNode(value));
+        });
+
+        const count = table.rows.length;
+        document.getElementById("count").innerText = count;
+        console.log(`Počet řádků: ${count}`);
+    };
+</script>
+
+</body>
+</html>
