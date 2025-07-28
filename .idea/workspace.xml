@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26ba6c3f-71d5-4d10-b464-4e54e747e6ac" name="Changes" comment="added new files with html, js and css which sends data from form to table bellow">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/playground/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/playground/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/playground/table.html" beforeDir="false" afterPath="$PROJECT_DIR$/playground/table.html" afterDir="false" />
-    </list>
+    <list default="true" id="26ba6c3f-71d5-4d10-b464-4e54e747e6ac" name="Changes" comment="css added according to homework" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="table-with-data" />
+        <entry key="$PROJECT_DIR$" value="css-styles-homework" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -138,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.table.html" />
-        <item itemvalue="Node.js.eslint.config.mjs" />
-        <item itemvalue="npm.lint" />
         <item itemvalue="npm.test (1)" />
         <item itemvalue="npm.test" />
+        <item itemvalue="npm.lint" />
+        <item itemvalue="Node.js.eslint.config.mjs" />
+        <item itemvalue="JavaScript Debug.table.html" />
       </list>
     </recent_temporary>
   </component>
@@ -167,7 +163,7 @@
       <workItem from="1752752852582" duration="10063000" />
       <workItem from="1753107367561" duration="2427000" />
       <workItem from="1753355475677" duration="6816000" />
-      <workItem from="1753705897187" duration="6645000" />
+      <workItem from="1753705897187" duration="7029000" />
     </task>
     <task id="LOCAL-00001" summary="added gitignore file">
       <option name="closed" value="true" />
@@ -225,7 +221,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752839863757</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="css added according to homework">
+      <option name="closed" value="true" />
+      <created>1753712851443</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1753712851443</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -248,6 +252,7 @@
     <MESSAGE value="added eslint and dependecies, refactoring of directories" />
     <MESSAGE value="added new files with html, js and css which sends data from form to table bellow" />
     <MESSAGE value="Merge pull request #4 from vojtahampl/table-with-data&#10;&#10;added new files with html, js and css which sends data from form" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge pull request #4 from vojtahampl/table-with-data&#10;&#10;added new files with html, js and css which sends data from form" />
+    <MESSAGE value="css added according to homework" />
+    <option name="LAST_COMMIT_MESSAGE" value="css added according to homework" />
   </component>
 </project>
